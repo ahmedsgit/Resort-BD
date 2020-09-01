@@ -1,8 +1,15 @@
 import React from 'react';
+import Hero from "../components/Hero";
+import Banner from "../components/Banner";
+import {Link} from "react-router-dom";
 
 function Home() {
     return (
-        <div>Hello from Home Page</div>
+        <Hero>
+            <Banner title="Luxurious Rooms" subtitle="deluxe rooms startting at $299">
+                <Link to='/rooms' className='btn-primary'>our rooms</Link>
+            </Banner>
+        </Hero>
     );
 }
 
