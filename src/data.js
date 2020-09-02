@@ -18,7 +18,7 @@ import img12 from "./images/room-12.jpeg";
 export default [
   {
     sys: {
-      id: "1"
+      id: "1" 
     },
     fields: {
       name: "single economy",
