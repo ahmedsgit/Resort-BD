@@ -436,10 +436,10 @@ h6 {
 }
 /* end of single room*/
 /* roomlist */
-.roomslist {
+.rooms-list {
   padding: 5rem 0;
 }
-.roomslist-center {
+.rooms-list-center {
   width: 80vw;
   margin: 0 auto;
   display: grid;
@@ -449,12 +449,12 @@ h6 {
 }
 
 @media screen and (min-width: 776px) {
-  .roomslist-center {
+  .rooms-list-center {
     width: 90vw;
   }
 }
 @media screen and (min-width: 992px) {
-  .roomslist-center {
+  .rooms-list-center {
     width: 95vw;
     max-width: 1170px;
   }

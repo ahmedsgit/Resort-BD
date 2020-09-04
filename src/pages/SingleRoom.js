@@ -1,6 +1,5 @@
 import React, {Component, Fragment} from 'react';
 import defaultImg from '../images/image-not-found.jpg';
-import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import {Link} from 'react-router-dom';
 import {RoomContext} from "../Context";
@@ -9,7 +8,6 @@ import StyledHero from "../components/StyledHero";
 class SingleRoom extends Component {
     constructor(props) {
         super(props);
-        // console.log(this.props);
         this.state={
             slug: this.props.match.params.slug,
             defaultImg
