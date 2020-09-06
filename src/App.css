@@ -482,8 +482,11 @@ h6 {
 }
 .form-control {
   width: 100%;
-  background: transparent;
+  background: #ededed;
   font-size: 1rem;
+  text-transform: capitalize;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 .size-inputs {
   display: flex;
@@ -500,6 +503,10 @@ h6 {
   font-size: 0.8rem;
   margin-left: 0.5rem;
 }
+.option{
+  text-transform: capitalize;
+}
+
 @media screen and (min-width: 776px) {
   .filter-form {
     width: 70vw;
