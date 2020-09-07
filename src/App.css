@@ -460,7 +460,7 @@ h6 {
   }
 }
 /* end of roomlist */
-/*  rooms fitler*/
+/*  rooms filter*/
 .filter-container {
   padding: 5rem 0;
 }
@@ -482,12 +482,13 @@ h6 {
 }
 .form-control {
   width: 100%;
-  background: #ededed;
+  background: transparent;
   font-size: 1rem;
   text-transform: capitalize;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
+
 .size-inputs {
   display: flex;
 }
